@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blockly</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- injecting Blockly to the web page -->
+        <script src="blockly_compressed.js"></script>
+        <script src="blocks_compressed.js"></script>
+        <script src="msg/js/en.js"></script>
+        <script src="js/custom.js"></script>
+
+    </head>
+    <body>
+
+        <div class="container">  
+            <div class="jumbotron text-center">
+                <h1>Blockly</h1>
+                <p>Visual Block Programming - Tutorial</p>
+            </div> 
+            
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+                    <xml id="toolbox" style="display: none">
+                        <block type="controls_if"></block>
+                        <block type="controls_repeat_ext"></block>
+                        <block type="logic_compare"></block>
+                        <block type="math_number"></block>
+                        <block type="math_arithmetic"></block>
+                        <block type="text"></block>
+                        <block type="text_print"></block>
+                    </xml>    
+                 
+                </div>
+
+                <div class="col-sm-6">
+                
+                    
+                </div>    
+
+            </div>
+            <div class="row">
+                    <div class="col-sm-4" id="eka"> 
+                            
+
+                    </div>
+                    <div class="col-sm-4" id="toka">
+                            
+
+                    </div>
+                    <div class="col-sm-4" id="kolmas">
+                            
+
+                    </div>    
+
+            </div>
+
+
+        </div> 
+
+    </body>
+
+</html>
