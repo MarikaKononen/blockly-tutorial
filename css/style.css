@@ -1,0 +1,39 @@
+body{
+    background-image: url(../media/green-plant.jpg);
+    background-size:cover
+}
+
+
+ul{
+    color: red;
+    font-size: 20px;
+
+}
+
+p{
+    color: #4d79ff;
+
+}
+
+img{
+    max-height: 200px;
+
+}
+#eka{
+    background-color:  blueviolet;   
+}
+
+#toka{
+    background-color: saddlebrown;
+}
+
+#kolmas{
+    background-color: peru;
+}
+
+iframe{
+    max-height: 150px;
+    width: auto;
+
+}
+
